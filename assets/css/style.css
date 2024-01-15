@@ -1,0 +1,660 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1{
+    width: 400px;
+}
+.container {
+    Display: none;
+    display: inline-block;
+    cursor: pointer;
+    }
+    
+    .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+    }
+    
+    
+    .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+    }
+    /* Hello word */
+    
+    .change .bar2 {opacity: 0;}
+    
+    
+    .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+    }
+.logo img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: -1vw 30vw 10vw -10vw;
+}
+.header_body{
+    display: flex;
+    margin: -10vw 0vw 10vw 0vw;
+}
+.booking_btn{
+    margin-top: 50px;
+    width: 284.534px;
+    height: 67px;
+}
+.aybo{
+    margin-left: 13%;
+}
+.header_body h3{
+    color: var(--text, #080606);
+    font-family: SchoolBook;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110px;
+    position: static;
+    
+}
+.header_pets img{
+    width: 833.595px;
+    height: 786px;
+    position: relative;
+    left: 28%;
+    margin: 0vw -8vw 10vw 0vw;
+}
+.navbar{
+    width: 800px;
+}
+nav{
+    width: 900px;
+    margin-left: 200px;
+    position: relative;
+    top: -360px;
+    left: 2.9%; 
+}
+.nav-link{
+    width: 900px;
+    height: 21px;
+
+}
+nav a{
+    color: var(--brown-light, #C3B9B5);
+    width: 100% !important;
+
+    font-family: "Futura New";
+    font-size: 20px;
+    font-style: "normal";
+    font-weight: 700;
+    line-height: 20px; 
+    text-decoration: none;
+    margin-left: 80px;
+    transition: 0.2s;
+}
+nav a:first-child{
+    margin-left: 0;
+}
+nav a:hover{
+    transition: 0.2s;
+    color: #000000;
+}
+header{
+    position: relative;
+    width: 99vw;
+height: 1200px; 
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.location{
+    width: 50px;
+    position: relative;
+left: 201ch;
+top: -397px;
+}
+.location_city{
+    width: 35px;
+    position: relative;
+    left: 110%;
+    bottom: 4.5ch;
+    color: #ff9d00;
+    font-family: Futura New;
+}
+    
+.link {
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    background-color: #ff9d00;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 12px 40px;
+    transition: all 0.8s ease 0s;
+    top: 50ch;
+    left: 20%;  
+   }
+   .link:hover {
+    background-color: #e53935;
+   }
+   .table_div {
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.10);
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+   }
+   .table_div img {
+    position: relative;
+    max-width: 139.279px;
+    height: 110px;
+    left: 61%;
+   }
+   .ling {
+    color: var(--brown, #59443F);
+    width: 50%;
+    font-family: SchoolBook;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 40px;
+   }
+   .service {
+    position: relative;
+    bottom: 25px;
+    color: var(--brown, #59443F);
+    font-family: Futura New;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+   }
+   .catalog {
+    padding: 0 200px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 15px;
+   }
+   .text{
+    width: 400px;
+    color: var(--text, #080606);
+font-family: SchoolBook;
+font-size: 40px;
+font-style: normal;
+font-weight: 40;
+line-height: 100px;
+position: relative;
+bottom: 75ch;
+left: 17.5%;
+   }
+   .button{
+    position: relative;
+    top: 70ch;
+    width: 285px;
+    left: 15%;
+   }
+   .pets{
+    color: var(--brown, #59443F);
+font-family: SchoolBook;
+font-size: 144px;
+font-style: normal;
+font-weight: 100;
+margin: 660px;
+margin-top: 300px;
+   }
+   .pet{
+    color: var(--text, #080606);
+font-family: Futura New;
+font-size: 80px;
+font-style: normal;
+font-weight: 400;
+line-height: 110px;}
+.pets_img{
+    width: 288px;
+height: 223px;
+flex-shrink: 0;
+position: relative;
+left: 48%;
+bottom: 1ch;
+}
+.app{
+    width: 99vw;
+    height: 1080px;
+    background-color: var(--orange, #FFC59E);
+}
+.appa{
+    color: #FFF;
+width: 73px;
+height: 20px;
+    font-family: Futura New;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    position: relative;
+}
+.aps{
+    color: #FFF;
+width: 826px;
+height: 330px;
+
+    font-family: SchoolBook;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110px
+}
+.apps{
+ position: relative;
+ text-align: left;
+ top: 50ch;
+ margin-left: 8vw;
+}
+.late{
+    display: flex;
+    margin-left: 33vw;
+    gap: -50px;
+}
+.late .img_dog{
+width: 575px;
+height: 535px;
+margin-top: -15vw;
+
+}
+.late .img_phone{
+    width: 425.202px;
+    height: 760px;
+    margin-top: -22vw;
+}
+.wait img{
+width: 426px;
+height: 760px;
+transform: rotate(2deg);
+position: relative;
+margin-left: 60vw;
+background: url(<path-to-image>)
+}
+.footer{
+    width: 1855px;
+height: 469px;
+    flex-shrink: 0;
+    position: relative;
+    margin: 500px 0px 0px  0px;
+    background-color: var(--orange, #59443F);
+}
+.logo{
+    width: 80px;
+height: 80px;
+position: relative;
+margin: 80px 1600px 299px 230px;
+}
+.log{
+    color: #ffffff;
+
+font-family: SchoolBook;
+width: 1000px;
+height: 70px;
+font-size: 50px;
+position: relative;
+margin: -21vw 0vw 0vw 18vw;
+}
+.opisanie{
+    color: #ffffff;
+    font-family: Futura New;
+    font-size: 20px;
+position: relative;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+margin: 0vw 0vw 10vw 18vw;
+}
+.opisanie1{
+    color: #ffffff;
+    font-family: Futura New;
+    font-size: 20px;
+position: relative;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+margin: -8vw 10vw 10vw 18vw;
+}
+.opisanie2{
+    color: #ffffff;
+    font-family: Futura New;
+    font-size: 20px;
+position: relative;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+margin: -14.2vw 10vw 10vw 35vw;
+}
+.opisanie3{
+    color: #ffffff;
+    font-family: Futura New;
+    font-size: 20px;
+position: relative;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+margin: -17.5vw 10vw 10vw 50vw;
+}
+.soc_icons{
+    display: flex;
+width: 310px;
+height: 40px;
+justify-content: center;
+align-items: flex-start;
+gap: 50px;
+flex-shrink: 0;
+position: relative;
+margin: -17vw 0vw 0vw 70vw ;
+}
+.appas{
+    width: 158px;
+    height: 61px;
+    margin: -6vw 0vw 0vw 39.5vw ;
+}
+.appasa{
+    width: 158px;
+    height: 61px;
+    margin: -10vw 10vw 1vw 30vw ;
+}
+.container{
+    position: relative;
+    left: 1700px;
+    top: 130px;
+     Display: none;
+}
+
+
+@media (max-width: 1200px){
+    .logo img{
+        width: 70px  !important;
+         height: 70px  !important;
+        right: 50px; 
+    }
+    .table_div{
+        right: -50px;
+    }
+    .table_div img{
+        left: 41px;
+        font-size: 200px;
+    }
+    .ling{
+        font-size: 20px;
+    }
+    nav{
+        left: -100px;
+    }
+    .location{
+        left: 955px;
+    }
+    .header_body h3{
+        
+        font-size:60px;
+        position: relative;
+        left: -100px;
+    }
+    .link{
+        top:-10px;
+        position: relative;
+        left: -100px;
+    }
+    .header_pets img{
+         left:-10% !important;
+         font-size: 200%; 
+         width: 600px  !important;
+         height: 600px  !important;
+    }
+    .pets{
+        position: relative;
+        left: -140px !important;
+        font-size: 800%;
+    }
+    .pet{
+        position: relative;
+        font-size:50%; 
+    }
+    .pets_img{
+         left: 20px !important;
+    }
+    .aps{
+        font-size:400%;
+    }
+    .late .img_dog{
+        width: 400px  !important;
+        height: 400px  !important;
+        position:relative;
+        top: -80px !important;
+        right: -135px !important;
+    }
+    .late .img_phone{
+        width: 500px  !important;
+        height: 500px  !important;
+        position:relative;
+        top: -60px !important;
+    }
+    .footer{
+        width: 1190px  !important;
+        height: 500px  !important;
+    }
+    .logo{
+        width: 70px  !important;
+        height: 70px  !important;
+        right: 100px;
+    }
+    .log{
+        font-size: 350%;
+        left: 10px;
+        bottom: 140px;
+    }
+    .opisanie{
+        left: 110px;
+        bottom: 140px;
+        left: 10px;
+    }
+    .opisanie1{
+        bottom: 90px;
+        left: 10px;
+    }
+    
+    .opisanie2{
+        bottom: 119.2px;
+        left: 50px;
+    }
+    .opisanie3{
+        bottom: 169px;
+        left: 70px;
+    }
+    .appasa{
+        width: 130px; ;
+        height:70px;
+        position:relative;
+        bottom: 141px;
+        right: 10px;
+    }
+    .appas{
+        width: 150px; ;
+        height:70px;
+        position:relative;
+        bottom: 135px;
+        left: 26px;
+    }
+    .soc_icons{
+        position: relative;
+        bottom: 250px;
+        left: 1px;
+    }
+}
+@media (max-width: 430px){
+    nav{
+        position: relative;
+        display:none 
+    }
+    .header_body h3{
+        font-size: 30px;
+    position: relative;
+    }
+    .location{
+        display:none
+    }
+    .container {
+        position: relative;
+    left: 950px;
+    top: 134px;
+    display: block
+    }
+    .header_pets img{
+        position: relative;
+        left: 120px !important;
+    }
+    .header_body h3{
+        font-size: 300%;
+        left: 10px;
+        line-height:normal;
+    }
+    .link{
+        left: 10px;
+    }
+    .table_div{
+        position: relative;
+        font-size: 10%;
+        width: 170px;
+        height: 170px;
+        left: 200px;
+        grid-area: "table_div";
+    }
+    .table_div img{
+        position: relative;
+        width: 50px;
+        height: 50px;
+    }
+    .catalog{
+        grid-template-area:
+    "table_div",
+    "table_div",
+    "table_div",
+    "table_div",
+    "table_div",
+    "table_div",
+    "table_div",
+    "table_div",
+    "table_div",
+    "table_div",
+    "table_div",
+    "table_div",
+    "table_div",
+    "table_div",
+    "table_div",
+    "table_div";
+    gap: 30px 20px;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);  
+}
+    .app{
+        width: 1124px;
+        height: 800px;     
+    }
+    .pet{
+        position: relative;
+        width: 1000px;
+        height: 420px;
+        font-size: 30%;
+        line-height:normal;
+        right: 20px; 
+    }
+    .pets{
+        Display: flex;
+Justify-content: center;
+Align-items: center;
+        width: 99vw;
+        height: 900px;
+        right: -20px;
+flex-direction: column;
+Gap: 15px;
+bottom: 30px;
+    }
+    .pets_img{
+        position: relative;
+        bottom: 400px;
+    }
+    .pets p{
+        width: 200%;
+        right: 200px;
+    }
+    .aps{
+        position: relative;
+        line-height:normal;
+        font-size: 600%;
+        bottom: 90px;
+    }
+    .late{
+        position: relative;
+        top: 20px;   
+    }
+    .appa{
+        position: relative;
+        bottom: 90px;
+    }
+       .late .img_dog {
+        position: relative;
+        left: 300px !important;
+       }
+       .late .img_phone{
+        position: relative;
+        left: 170px !important;
+        top: -111px !important;
+       }
+       .apps{
+        position: relative;
+        font-size: 60%;
+        width: 100px;
+        height: 10px;
+        line-height:normal ;
+       }
+       .appas{
+        top: -180px;
+        left: 300px;
+       }
+       .appasa{
+        top: -210px;
+        left: 200px;
+       }
+       .soc_icons{
+        top: -260px;
+        left: 480px;
+       }
+       .logo{
+        left: -130px;
+       }
+       .log{
+        top: -300px;
+        left: 120px;
+       }
+       .opisanie{
+        top: -300px;
+        left: 120px;
+       }
+       .opisanie1{
+        display:none
+       }
+       .opisanie2{
+        display:none
+       }
+       .opisanie3{
+        display:none
+       }
+       .footer{
+        position: relative;
+        width: 1130px  !important;
+        height: 250px !important;
+       }
+}
