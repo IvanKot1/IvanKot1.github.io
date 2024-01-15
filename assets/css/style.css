@@ -284,7 +284,7 @@ margin-left: 60vw;
 background: url(<path-to-image>)
 }
 .footer{
-    width: 1855px;
+    width: 99vw;
 height: 469px;
     flex-shrink: 0;
     position: relative;
